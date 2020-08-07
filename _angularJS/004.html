@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>W3C angular-js 004</title>
+  <meta name="description" content="Small projects GitHub - W3C angular-js 004">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+</head>
+<body>
+  <div id="wrapper">
+    <header>
+    </header>
+    <main>
+      <div ng-app="myApp" ng-controller="myCtrl">
+        <p>First Name: <input type="text" ng-model="firstName"></p>
+        <p>Last Name: <input type="text" ng-model="lastName"></p>
+        <p>Full Name: {{firstName + " " + lastName}}</p>
+      </div>
+      <script>
+        var app = angular.module('myApp', []);
+        app.controller('myCtrl', function($scope) {
+            $scope.firstName = "John";
+            $scope.lastName = "Doe";
+        });
+      </script>
+    </main>
+  </div>
+</body>
+</html>
