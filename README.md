@@ -1,6 +1,7 @@
 # Course
 
-**w3schools**
+[w3schools](https://www.w3schools.com/)
+- HTML
 
 ## Libraries used in Course
 
