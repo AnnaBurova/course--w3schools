@@ -24,9 +24,9 @@ The HTML standard does not require quotes around attribute values. However, W3C 
 
 `<body></body>` - the document's body, and is a container for all the visible contents
 
-`<h1></h1>` - a heading
+`<h1></h1>` - a heading element
 
-`<p></p>` - a paragraph
+`<p></p>` - a paragraph element
 
 `<br />` - empty element, do not have an end tag
 
