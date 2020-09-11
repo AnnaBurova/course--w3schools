@@ -30,6 +30,13 @@ The HTML standard does not require quotes around attribute values. However, W3C 
 
 `<br />` - empty element, do not have an end tag
 
+## Attributes
+
+- All HTML elements can have *attributes*
+- Attributes provide *additional information* about elements
+- Attributes are always specified in the *start tag*
+- Attributes usually come in *name/value pairs* like: `name="value"`
+
 # About CSS
 
 CSS - Cascading Style Sheets
