@@ -7,5 +7,5 @@
 
 - HTML5.2
 
-https://www.w3schools.com/html/html_elements.asp
+https://www.w3schools.com/html/html_formatting.asp
 https://www.w3.org/TR/html52/
