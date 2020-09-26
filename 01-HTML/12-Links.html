@@ -7,19 +7,48 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
 
   <title>HTML Tutorial</title>
-
-  <style type="text/css">
-  </style>
 </head>
 
 <body>
-  <!-- Links - Syntax -->
+  <h1>HTML Links - Syntax</h1>
   <!-- <a href="url">link text</a> -->
-  <a href="https://www.w3schools.com/">Visit W3Schools.com!</a>
+  <p><a href="https://www.w3schools.com/">Visit W3Schools.com!</a></p>
 
-A link does not have to be text. A link can be an image or any other HTML element!
-  An unvisited link is underlined and blue
-A visited link is underlined and purple
-An active link is underlined and red
+  <!-- A link does not have to be text. A link can be an image or any other HTML element! -->
+
+  <h1>HTML Links - The target Attribute</h1>
+  <!-- (_self - Opens the document in the same window/tab as it was clicked) -->
+  <p><a href="https://www.w3schools.com/" target="_self">Visit W3Schools! (_self)</a></p>
+  <!-- (_blank - Opens the document in a new window or tab) -->
+  <p><a href="https://www.w3schools.com/" target="_blank">Visit W3Schools! (_blank)</a></p>
+  <!-- (_parent - Opens the document in the parent frame) -->
+  <p><a href="https://www.w3schools.com/" target="_parent">Visit W3Schools! (_parent)</a></p>
+  <!-- (_top - Opens the document in the full body of the window) -->
+  <p><a href="https://www.w3schools.com/" target="_top">Visit W3Schools! (_top)</a></p>
+
+  <h1>Absolute URLs vs. Relative URLs</h1>
+  <!-- Absolute URL - a full web address -->
+  <!-- Relative URL - a link within the same website -->
+  <h2>Absolute URLs</h2>
+  <p><a href="https://www.w3.org/">W3C</a></p>
+  <p><a href="https://www.google.com/">Google</a></p>
+
+  <h2>Relative URLs</h2>
+  <p><a href="11.1-styles.css">CSS Styles</a></p>
+  <p><a href="../01-HTML/imgs/bg_transparent.gif">Background transparent gif</a></p>
+
+  <h1>HTML Links - Use an Image as a Link</h1>
+  <p><a href="imgs/smiley.gif">
+    <img src="imgs/smiley.gif" alt="Smiley Gif" style="width: 42px; height: 42px;">
+  </a></p>
+
+  <h1>Link to an Email Address</h1>
+  <p><a href="mailto:someone@example.com">Send email</a></p>
+
+  <h1>Button as a Link</h1>
+  <p><button onclick="document.location='imgs/smiley.gif'">Smiley Gif</button></p>
+
+  <h1>Link Titles</h1>
+  <p><a href="https://www.w3schools.com/html/" title="Go to W3Schools HTML section">Visit our HTML Tutorial</a> - hover to see extra information as a tooltip text.</p>
 </body>
 </html>
