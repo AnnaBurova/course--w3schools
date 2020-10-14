@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=1" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+
+  <title>HTML Tutorial</title>
+
+  <style type="text/css">
+  </style>
+
+  <script>
+  </script>
+</head>
+
+<body>
+  <h1>HTML <picture> Element</h1>
+
+  <p>Resize the browser to see different versions of the picture loading at different viewport sizes.</p>
+  <p>The img element is used to provide backward compatibility for browsers</p>
+  <p><strong>Note:</strong> The picture element is not supported in IE12 and earlier or Safari 9.0 and earlier.</p>
+
+  <picture>
+    <source media="(min-width: 650px)" srcset="imgs/img_food.jpg">
+    <source media="(min-width: 465px)" srcset="imgs/img_car.jpg">
+    <img src="imgs/img_girl.jpg" style="width: auto;">
+  </picture>
+</body>
+</html>
