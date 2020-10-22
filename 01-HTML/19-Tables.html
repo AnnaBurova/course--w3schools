@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=1" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+
+  <title>HTML Tutorial</title>
+
+  <style type="text/css">
+    table,
+    table th,
+    table td {
+      border: 1px solid black;
+      border-collapse: collapse;
+    }
+    table th,
+    table td {
+      padding: 5px;
+      text-align: left;
+    }
+
+    table.style {
+      width: 100%;
+      font-family: Arial, sans-serif;
+      /*border-spacing: 5px;*/
+    }
+    table.style td,
+    table.style th {
+      border: 1px solid #DDD;
+      padding: 8px;
+    }
+    table.style tr:nth-child(even) {
+      background-color: #DDD;
+    }
+
+    #t01 {
+      width: 100%;
+      background-color: #f1f1c1;
+    }
+
+    #t02 th,
+    #t02 td {
+      padding: 15px;
+    }
+    #t02 tr:nth-child(even) {
+      background-color: #eee;
+    }
+    #t02 tr:nth-child(odd) {
+     background-color: #fff;
+    }
+    #t02 th {
+      background-color: black;
+      color: white;
+    }
+  </style>
+
+  <script>
+  </script>
+</head>
+
+<body>
+  <h1>HTML Tables</h1>
+
+  <table class="style" style="max-width: 1000px;">
+    <tr>
+      <th>Company</th>
+      <th>Contact</th>
+      <th>Country</th>
+    </tr>
+    <tr>
+      <td>Alfreds Futterkiste</td>
+      <td>Maria Anders</td>
+      <td>Germany</td>
+    </tr>
+    <tr>
+      <td>Centro comercial Moctezuma</td>
+      <td>Francisco Chang</td>
+      <td>Mexico</td>
+    </tr>
+    <tr>
+      <td>Ernst Handel</td>
+      <td>Roland Mendel</td>
+      <td>Austria</td>
+    </tr>
+    <tr>
+      <td>Island Trading</td>
+      <td>Helen Bennett</td>
+      <td>UK</td>
+    </tr>
+    <tr>
+      <td>Laughing Bacchus Winecellars</td>
+      <td>Yoshi Tannamuri</td>
+      <td>Canada</td>
+    </tr>
+    <tr>
+      <td>Magazzini Alimentari Riuniti</td>
+      <td>Giovanni Rovelli</td>
+      <td>Italy</td>
+    </tr>
+  </table>
+
+  <h2>Cell that Span Many Columns</h2>
+
+  <table>
+    <tr>
+      <th>Name</th>
+      <th colspan="2">Telephone</th>
+    </tr>
+    <tr>
+      <td>Bill Gates</td>
+      <td>55577854</td>
+      <td>55577855</td>
+    </tr>
+  </table>
+
+  <h2>Cell that spans two rows</h2>
+
+  <table>
+    <tr>
+      <th>Name:</th>
+      <td>Bill Gates</td>
+    </tr>
+    <tr>
+      <th rowspan="2">Telephone:</th>
+      <td>55577854</td>
+    </tr>
+    <tr>
+      <td>55577855</td>
+    </tr>
+  </table>
+
+  <h2>Table Caption</h2>
+
+  <table>
+    <caption>Monthly savings</caption>
+    <!-- The <caption> tag must be inserted immediately after the <table> tag. -->
+    <tr>
+      <th>Month</th>
+      <th>Savings</th>
+    </tr>
+    <tr>
+      <td>January</td>
+      <td>$100</td>
+    </tr>
+    <tr>
+      <td>February</td>
+      <td>$50</td>
+    </tr>
+  </table>
+
+  <h2>Styling Tables</h2>
+
+  <table>
+    <tr>
+      <th>Firstname</th><th>Lastname</th><th>Age</th>
+    </tr>
+    <tr>
+      <td>Jill</td><td>Smith</td><td>50</td>
+    </tr>
+    <tr>
+      <td>Eve</td><td>Jackson</td><td>94</td>
+    </tr>
+    <tr>
+      <td>John</td><td>Doe</td><td>80</td>
+    </tr>
+  </table>
+
+  <br />
+
+  <table id="t01">
+    <tr>
+      <th>Firstname</th><th>Lastname</th><th>Age</th>
+    </tr>
+    <tr>
+      <td>Jill</td><td>Smith</td><td>50</td>
+    </tr>
+    <tr>
+      <td>Eve</td><td>Jackson</td><td>94</td>
+    </tr>
+    <tr>
+      <td>John</td><td>Doe</td><td>80</td>
+    </tr>
+  </table>
+
+  <br />
+
+  <table id="t02">
+    <tr>
+      <th>Firstname</th><th>Lastname</th><th>Age</th>
+    </tr>
+    <tr>
+      <td>Jill</td><td>Smith</td><td>50</td>
+    </tr>
+    <tr>
+      <td>Eve</td><td>Jackson</td><td>94</td>
+    </tr>
+    <tr>
+      <td>John</td><td>Doe</td><td>80</td>
+    </tr>
+  </table>
+</body>
+</html>
