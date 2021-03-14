@@ -1,11 +1,9 @@
 # Course
 
 [w3schools](https://www.w3schools.com/)
-- HTML
+
+- [ ] [HTML](https://www.w3schools.com/html/)
 
 ## Libraries used in Course
 
-- HTML5.2
-
-https://www.w3schools.com/html/
-https://www.w3.org/TR/html52/
+- HTML 5.2
